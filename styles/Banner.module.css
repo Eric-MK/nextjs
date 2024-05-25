@@ -131,6 +131,7 @@
   .main {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .lhs h1 {
@@ -139,7 +140,9 @@
   }
 
   .learn__ctn {
+    margin-top: 1em;
     flex-direction: column;
+    align-items: center;
   }
 
   .learn__ctn button {
@@ -154,6 +157,7 @@
   }
 
   .watch__ctn p {
+    margin-left: 0;
     font-size: 12px;
   }
 
@@ -166,6 +170,10 @@
 @media (max-width: 768px) {
   .wrapper {
     height: 600px;
+  }
+
+  .inner {
+    width: 100%;
   }
 
   .lhs h1 {
@@ -217,5 +225,33 @@
   .rhs .numbering {
     font-size: 10px;
     margin: 2em auto;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    height: 350px;
+  }
+
+  .lhs h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .learn__ctn button {
+    width: 70px;
+    height: 35px;
+    font-size: 7px;
+  }
+
+  .watch__ctn p {
+    font-size: 7px;
+  }
+
+  .rhs .numbering {
+    font-size: 9px;
+    margin: 1.5em auto;
+    visibility: hidden;
   }
 }
