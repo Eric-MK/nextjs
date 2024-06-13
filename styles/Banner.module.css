@@ -104,11 +104,7 @@
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .inner {
-<<<<<<< HEAD
     width: 90%;
-=======
-    width: 80%;
->>>>>>> b169f6aa627f501eae483c67e0e957aec1f2b403
   }
 
   .lhs h1 {
