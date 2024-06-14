@@ -4,6 +4,19 @@
   width: 100%;
 }
 
+.lhs h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #333333;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.lhs iframe {
+  max-width: 100%;
+}
+
 .inner {
   width: 80%;
   margin: 0 auto;
@@ -212,6 +225,10 @@
     padding: 10px 20px;
     align-self: center;
   }
+
+  .ihs.frame {
+    height: 250px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -252,5 +269,9 @@
   .inputs__ctn button {
     font-size: 14px;
     padding: 8px 16px;
+  }
+  
+  .lhs iframe {
+    height: 200px;
   }
 }
