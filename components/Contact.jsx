@@ -66,17 +66,16 @@ const Contact = () => {
         <motion.h1 variants={textVariants}>
     South Sudan Address:<br></br> Munuki Block B <br></br> behind Munuki Block
     Council Office
-    <motion.div variants={textVariants}>
+    <motion.div variants={textVariants} className={styles.map__ctn}>
       <iframe
         src="https://maps.google.com/maps?q=Munuki%20Block%20B%2C%20Juba%2C%20South%20Sudan&t=&z=15&ie=UTF8&iwloc=&output=embed"
-        width="1200"
-        height="600"
-        style={{ border: 0 }}
+        className={styles.map}
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </motion.div>
+
   </motion.h1>
   <motion.div variants={textVariants} className={styles.icon__ctn}>
     {/* <div className={styles.icons}>

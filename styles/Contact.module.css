@@ -168,6 +168,24 @@
   background: #025e2b;
 }
 
+.map__ctn {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .wrapper {
@@ -274,4 +292,17 @@
   .lhs iframe {
     height: 200px;
   }
+
+  @media (max-width: 768px) {
+    .map__ctn {
+      padding-bottom: 75%; /* Adjust the aspect ratio as needed */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .map__ctn {
+      padding-bottom: 100%; /* Adjust the aspect ratio as needed */
+    }
+  }
+  
 }
