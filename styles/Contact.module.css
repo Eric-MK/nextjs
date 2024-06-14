@@ -162,7 +162,13 @@
   }
 
   .inner {
+    width: 90%;
     padding: 2em 0;
+  }
+
+  .header h1 {
+    font-size: 28px;
+    line-height: 36px;
   }
 
   .lemon__ctn {
@@ -183,14 +189,68 @@
     padding: 2em;
   }
 
+  .lhs h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .form header h1 {
+    font-size: 24px;
+  }
+
   .inputs__ctn input,
   .inputs__ctn textarea {
     height: 40px;
     padding: 0.5em;
   }
 
+  .inputs__ctn textarea {
+    height: 150px;
+  }
+
   .inputs__ctn button {
     padding: 10px 20px;
     align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .inner {
+    width: 95%;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .lhs,
+  .rhs {
+    padding: 1.5em;
+  }
+
+  .lhs h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .form header h1 {
+    font-size: 20px;
+  }
+
+  .inputs__ctn input,
+  .inputs__ctn textarea {
+    height: 36px;
+    padding: 0.5em;
+    font-size: 14px;
+  }
+
+  .inputs__ctn textarea {
+    height: 120px;
+  }
+
+  .inputs__ctn button {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
