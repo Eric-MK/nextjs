@@ -201,7 +201,7 @@ const Offer = () => {
               </motion.p>
             </motion.div>
             <div className={styles.card__img}>
-              <img src="/images/cleaning.jpg" alt="cleaning" />
+              <img src="/images/erp.jpg" alt="emergency response" />
               <img
                 src="/svgs/ic-arrow-right.svg"
                 alt="arrow-right"
@@ -268,7 +268,7 @@ const Offer = () => {
               </motion.p>
             </motion.div>
             <div className={styles.card__img}>
-              <img src="/images/cleaning.jpg" alt="cleaning" />
+              <img src="/images/Tile-Floor-scrubbing.jpg" alt="cleaning" />
               <img
                 src="/svgs/ic-arrow-right.svg"
                 alt="arrow-right"
@@ -301,7 +301,7 @@ const Offer = () => {
               </motion.p>
             </motion.div>
             <div className={styles.card__img}>
-              <img src="/images/cleaning.jpg" alt="cleaning" />
+              <img src="/images/fumigation.jpg" alt="fumigation" />
               <img
                 src="/svgs/ic-arrow-right.svg"
                 alt="arrow-right"
@@ -334,7 +334,7 @@ const Offer = () => {
                 and effective sanitization to maintain a clean and hygienic environment.              </motion.p>
             </motion.div>
             <div className={styles.card__img}>
-              <img src="/images/cleaning.jpg" alt="cleaning" />
+              <img src="/images/bins.jpg" alt="bin management" />
               <img
                 src="/svgs/ic-arrow-right.svg"
                 alt="arrow-right"
