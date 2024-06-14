@@ -63,55 +63,56 @@ const Contact = () => {
           </motion.h1>
         </motion.header>
         <section className={styles.contact__ctn}>
-          <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            transition={{ staggerChildren: 0.5 }}
-            className={styles.lhs}
-          >
-            <motion.h1 variants={textVariants}>
-            South Sudan Address:<br></br> Munuki Block B <br></br> behind Munuki Block Council Office
+        <motion.h1 variants={textVariants}>
+    South Sudan Address:<br></br> Munuki Block B <br></br> behind Munuki Block
+    Council Office
+    <motion.div variants={textVariants}>
+      <iframe
+        src="https://maps.google.com/maps?q=Munuki%20Block%20B%2C%20Juba%2C%20South%20Sudan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        width="400"
+        height="300"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </motion.div>
+  </motion.h1>
+  <motion.div variants={textVariants} className={styles.icon__ctn}>
+    {/* <div className={styles.icons}>
+        <Image
+          src="/svgs/ic-facebook.svg"
+          alt="facebook_icon"
+          width={17}
+          height={17}
+        />
+      </div> */}
+    <div className={styles.icons}>
+      <Image
+        src="/svgs/ic-instagram.svg"
+        alt="instagram_icon"
+        width={17}
+        height={17}
+      />
+    </div>
+    <div className={styles.icons}>
+      <Image
+        src="/svgs/ic-twitter.svg"
+        alt="twitter_icon"
+        width={17}
+        height={17}
+      />
+    </div>
+    <div className={styles.icons}>
+      <Image
+        src="/svgs/ic-linkedIn.svg"
+        alt="linkedIn_icon"
+        width={17}
+        height={17}
+      />
+    </div>
+  </motion.div>
 
-            <br></br>
-
-          
-
-</motion.h1>
-            <motion.div variants={textVariants} className={styles.icon__ctn}>
-              {/* <div className={styles.icons}>
-                  <Image
-                    src="/svgs/ic-facebook.svg"
-                    alt="facebook_icon"
-                    width={17}
-                    height={17}
-                  />
-                </div> */}
-              <div className={styles.icons}>
-                <Image
-                  src="/svgs/ic-instagram.svg"
-                  alt="instagram_icon"
-                  width={17}
-                  height={17}
-                />
-              </div>
-              <div className={styles.icons}>
-                <Image
-                  src="/svgs/ic-twitter.svg"
-                  alt="twitter_icon"
-                  width={17}
-                  height={17}
-                />
-              </div>
-              <div className={styles.icons}>
-                <Image
-                  src="/svgs/ic-linkedIn.svg"
-                  alt="linkedIn_icon"
-                  width={17}
-                  height={17}
-                />
-              </div>
-            </motion.div>
-          </motion.div>
           <motion.div
             initial="offscreen"
             whileInView="onscreen"
