@@ -69,8 +69,8 @@ const Contact = () => {
     <motion.div variants={textVariants}>
       <iframe
         src="https://maps.google.com/maps?q=Munuki%20Block%20B%2C%20Juba%2C%20South%20Sudan&t=&z=15&ie=UTF8&iwloc=&output=embed"
-        width="400"
-        height="300"
+        width="1200"
+        height="600"
         style={{ border: 0 }}
         allowFullScreen=""
         loading="lazy"
